@@ -1,0 +1,14 @@
+El Problema:
+
+Tienes un DataFrame de pandas con información de clientes, incluyendo variables numéricas como edad, ingresos y gasto.
+
+Tu Misión:
+
+Escribe una función llamada segmentar_clientes_kmeans(df, k) que realice lo siguiente:
+
+- Aplique un modelo KMeans de sklearn con k clusters.
+- Asigne a cada fila el cluster correspondiente.
+- Añada una columna llamada cluster al DataFrame.
+- Devuelva el DataFrame resultante.
+
+El output debe ser un DataFrame de pandas.
